@@ -11,6 +11,6 @@
          * @Route("/")
          */
         public function show() {
-            return new Response('milosz');
+            return new Response('<html><body><h3>Recruting task for 2MD<h3></body></html>');
         }
     }
