@@ -9,6 +9,7 @@
 
 
     class firstCommand extends Command {
+        
         protected function configure() {
             $this
                 // the name of the command (the part after "bin/console")
@@ -24,8 +25,8 @@
                 ->addArgument('phrase', InputArgument::REQUIRED, 'String parameter for check' )
             ;
         }
-        protected function execute(InputInterface $input, OutputInterface $output)
-        {
+        protected function execute(InputInterface $input, OutputInterface $output) {
+
             $output->writeln([ //outputs line to console adding "\n" at the end of line
                 '=====Result=====',
             ]);

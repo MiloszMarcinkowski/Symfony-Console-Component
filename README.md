@@ -16,7 +16,7 @@ composer install
 
 Command must take a string parameter containing text and will check if “John” and “Mary” names are found the same number of times inside the provided text. Function is case insensitive. If the number of times is the same it return 1, if not it return 0.
 
-First command:
+Pattern:
 ```
 php bin/console app:finder <phrase>
 ```
@@ -37,7 +37,7 @@ Command must take a string parameter containing array of products in JSON. It re
 !important:
 Input command argument <json_string> without line break. (in one line like in example below) 
 
-Second command:
+Pattern:
 ```
 php bin/console app:json <json_string>
 ```
